@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 html {
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 body {
@@ -15,7 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-overflow-scrolling: touch;
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -618,15 +618,17 @@ header {
     padding-top: 10px !important;
   }
   .hero {
+    min-height: 0 !important;
+    height: auto !important;
+    padding: 40px 10px 20px 10px;
     flex-direction: column;
-    padding: 80px 20px 30px 20px;
     text-align: center;
-    min-height: unset;
     gap: 20px;
   }
+
   .hero .content {
-    order: 2;
-    padding-right: 0;
+    grid-column: 1 /1;
+    justify-content: center;
   }
   .hero-img {
     order: 1;
@@ -651,6 +653,20 @@ header {
   }
   .contact {
     padding: 40px 20px;
+  }
+   [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+  .logo span,
+  .hero-img img,
+  .glow-circle,
+  .glow-circle-alt,
+  .animate-name {
+    animation: none !important;
+    transition: none !important;
   }
 }
 @media (max-width: 480px) {

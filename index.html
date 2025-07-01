@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismahaney | Full-Stack Developer</title>
+    <meta name="description" content="Ismahaney - Full-Stack Developer & Computer Science Student. Specializing in React, Ruby on Rails, and modern web development.">
+    <meta name="keywords" content="full-stack developer, web developer, react, ruby on rails, computer science">
+    <meta name="author" content="Ismahaney">
+    
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-portfolio-url.com/">
+    <meta property="og:title" content="Ismahaney | Full-Stack Developer">
+    <meta property="og:description" content="Full-Stack Developer & Computer Science Student">
+    <meta property="og:image" content="https://your-portfolio-url.com/images/img1.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-portfolio-url.com/">
+    <meta property="twitter:title" content="Ismahaney | Full-Stack Developer">
+    <meta property="twitter:description" content="Full-Stack Developer & Computer Science Student">
+    <meta property="twitter:image" content="https://your-portfolio-url.com/images/img1.jpg">
+
+ 
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <link rel="preload" as="image" href="src/img1.jpg">
+    <link rel="preload" as="image" href="src/about.jpg">
+</head>
+<body>
+
+    <header data-aos="fade-down" data-aos-duration="800">
+        <a href="#" class="logo" aria-label="Ismahaney Portfolio">
+            <strong>
+                <span class="i">I</span><span class="s">s</span><span class="m">m</span><span class="a">a</span><span class="h">h</span><span class="a2">a</span><span class="n">n</span>
+            </strong>
+          
+        </a>
+
+        <button class="toggle" onclick="toggleMenu()" aria-label="Toggle navigation menu">
+            <span></span><span></span><span></span>
+        </button>
+        
+        <nav class="navigation" role="navigation">
+            <a href="#home" aria-label="Go to home section">Home</a>
+            <a href="#skills" aria-label="Go to skills section">Skills</a>
+            <a href="#projects" aria-label="Go to projects section">Projects</a>
+            <a href="#education" aria-label="Go to education section">Education</a>
+            <a href="#volunteering" aria-label="Go to volunteering section">Volunteering</a>
+            <a href="#contact" aria-label="Go to contact section">Contact</a>
+        </nav>
+    </header>
+
+
+    <section id="home" class="hero" data-aos="fade-up">
+        <div class="hero-img" data-aos="fade-left">
+            <div class="glow-circle">
+                <img src="src/img1.jpg" alt="Ismahaney - Full-Stack Developer" loading="eager">
+            </div>
+        </div>
+        <div class="content" data-aos="fade-right">
+            <h1>Hey, I'm&nbsp;&nbsp;<span class="animate-name">Ismahan</span></h1>
+            <p>
+                I'm a full-stack developer who really enjoys building things, whether it's creating clean user interfaces, figuring out logic behind features or experimenting with new tools. I mostly work with <span id="about-skill-rotator" class="highlight">HTML</span>, and lately I've been learning Python too. I'm always curious, always learning, and I really enjoy solving real problems with code. If you want to team up on a project or share ideas, I'd love to connect!
+            </p>
+            <div class="hero-btn">
+                <a href="#contact" class="btn" aria-label="Contact me">Hire Me</a>
+                <a href="https://www.linkedin.com/in/ismahaney" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Connect with me on LinkedIn" style="margin-left:10px;">Connect</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills" data-aos="fade-up">
+        <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="0">
+                <i class="fab fa-html5" aria-hidden="true" style="font-size:2rem;"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fab fa-css3-alt" aria-hidden="true" style="font-size:2rem;"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fab fa-js-square" aria-hidden="true" style="font-size:2rem;"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fab fa-react" aria-hidden="true" style="font-size:2rem;"></i>
+                <h3>React</h3>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                <i class="fas fa-gem" aria-hidden="true" style="font-size:2rem;"></i>
+                <h3>Ruby on Rails</h3>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                <i class="fab fa-python" aria-hidden="true" style="font-size:2rem;"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+                <i class="fas fa-database" aria-hidden="true" style="font-size:2rem;"></i>
+                <h3>PostgreSQL</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects" data-aos="fade-up">
+        <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+        
+        <div class="projects-grid">
+            
+            <div class="project-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="project-icon">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <h3>Rebirth of a Queen</h3>
+                <h4>Backend Developer</h4>
+                <p>
+                    This is a real-world client project built as our final team assignment at Moringa School. I worked as the backend developer, designing the database, writing server-side logic and handling frontend integration. The platform celebrates African heritage by amplifying women's voices through storytelling. It was an incredible experience collaborating with a diverse team, working closely with the client and seeing our work make a real impact. I learned a lot about teamwork, communication and building a product that truly matters.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Ruby on Rails</span>
+                    <span class="tech-tag">Database Design</span>
+                    <span class="tech-tag">Full-Stack</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://rebirth-of-a-queen.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn" aria-label="View Rebirth of a Queen live demo">
+                        Live Demo
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>BreakBuddy</h3>
+                <h4>Team Leader & Front-End Developer</h4>
+                <p>
+                    BreakBuddy is a productivity app built during a hackathon. I led an amazing team as the team leader, coordinating our efforts and ensuring everyone contributed their strengths. Together, we created a clean, responsive UI using React Native and Tailwind CSS. The app helps users stay focused through the Pomodoro technique and task tracking. It also features SWiME rooms where students can study together. Our strong teamwork and collaboration helped us win the <strong>Judges' Favourite Award</strong>.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">React Native</span>
+                    <span class="tech-tag">Tailwind CSS</span>
+                    <span class="tech-tag">Productivity</span>
+                </div>
+                <div id="breakbuddy-screenshots" class="project-screenshots" style="display:none; gap:10px; justify-content:center; margin-bottom:18px;">
+                    <img src="src/b1.jpg" alt="BreakBuddy screenshot 1" style="max-width:90px; border-radius:8px; box-shadow:0 2px 8px #0002;">
+                    <img src="src/b2.jpg" alt="BreakBuddy screenshot 2" style="max-width:90px; border-radius:8px; box-shadow:0 2px 8px #0002;">
+                    <img src="src/b3.jpg" alt="BreakBuddy screenshot 3" style="max-width:90px; border-radius:8px; box-shadow:0 2px 8px #0002;">
+                </div>
+             
+                <button class="toggle-images-btn" onclick="toggleBreakBuddyScreenshots()" style="margin-bottom:12px;">View Screenshots</button>
+                <div class="project-links">
+                    <a href="src/hackathon.jpg" target="_blank" class="btn" aria-label="View Hackathon Certificate" style="margin-top:10px;display:inline-block;">View Hackathon Certificate</a>
+                </div>
+            </div>
+
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="project-icon">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <h3>Project Manager App</h3>
+                <h4>Backend Developer</h4>
+                <p>
+                    Project Manager App is a full-stack web application that allows users to sign up, log in and manage their projects and tasks efficiently. As the backend developer, I was responsible for designing the database, implementing authentication and building the server-side logic using Ruby on Rails. This was my Phase 4 group project in Moringa School and I enjoyed collaborating with my teammates to deliver a functional and user-friendly tool for project management.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Ruby on Rails</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://client-bjda8yc9i-ismahaneyy.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn" aria-label="View Project Manager App live demo">
+                        Live Demo
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="project-icon">
+                    <i class="fas fa-paw"></i>
+                </div>
+                <h3>Petfinder</h3>
+                <p>After learning Ruby I worked on this project to see if I really understood it. Petfinder lets users register, log in and manage their own pets. Built with React, Zustand and a Ruby/Sinatra backend. Features user authentication, search and CRUD for your own pets.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Zustand</span>
+                    <span class="tech-tag">Ruby/Sinatra</span>
+                    <span class="tech-tag">CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://y-3rcz42bsj-ismahaneyy.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn" aria-label="View Petfinder live demo">
+                        Live Demo
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="project-card bot-battlr" data-aos="fade-up" data-aos-delay="500">
+                <div class="project-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>Bot Battlr</h3>
+                <p>My first ever React project where I learned to deploy! Assemble your own bot squad, collect, sort and battle bots. Bot Battlr is a React-based app for building and managing a bot army. Users can filter and sort bots by class, health, armor or damage and add unique bots to their army. The app fetches data from a local JSON-server and uses React Context for state management.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Context API</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JSON-server</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://bot-battlr-8gw32em2b-ismahaneyy.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn" aria-label="View Bot Battlr live demo">
+                        Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section" data-aos="fade-up">
+      <h2 class="section-title">Education</h2>
+     
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Riara University</h3>
+            <div class="edu-years">Sep 2023 – Present</div>
+            <div class="edu-desc">I'm currently studying here, learning new things every day and working towards my Computer Sciencedegree.</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Moringa School</h3>
+            <div class="edu-years">Nov 2022 – April 2023</div>
+            <div class="edu-desc">This was an intense coding bootcamp. I learned real-world web development, worked on team projects and really grew as a developer.</div>
+            <a href="src/mmoringa.jpg" target="_blank" class="edu-badge" style="margin-top:10px;display:inline-block;">View Certificate</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>High School</h3>
+            <div class="edu-school">Ngara Girls High School</div>
+            <div class="edu-years">2018 – April 2022</div>
+            <div class="edu-desc">I finished high school here, made great friends and learned a lot, both in and out of class.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="volunteering" class="volunteering-section" data-aos="fade-up">
+      <h2 class="section-title">Volunteering</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Lang'ata Barracks Nursery School</h3>
+            <p>I taught at Lang'ata Barracks Nursery School and loved teaching the kids. They were so much fun and full of energy! The teachers were amazing and taught me a lot about patience and kindness.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" data-aos="fade-up">
+        <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+        <form id="contactForm" class="contact-form" method="POST" action="https://formsubmit.co/ismahanabdirizakk@gmail.com" aria-label="Contact form">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_redirect" value="none">
+            <input type="hidden" name="_template" value="table">
+            
+            <div class="form-group">
+                <label for="name" class="sr-only">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required aria-label="Enter your name">
+            </div>
+            
+            <div class="form-group">
+                <label for="email" class="sr-only">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Enter your email">
+            </div>
+            
+            <div class="form-group">
+                <label for="message" class="sr-only">Your Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Your Message" required aria-label="Enter your message"></textarea>
+            </div>
+            
+            <button type="submit" class="btn" aria-label="Send message">Send Message</button>
+        </form>
+        
+        <p id="thankYouMessage" style="display:none; color:#00f2ff; margin-top:20px; font-weight:600;" role="alert">
+            Thank you! Your message has been sent. 
+        </p>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <span>&copy; 2025 Ismahaney. All rights reserved.</span>
+            <div class="social-links">
+                <a href="https://github.com/ismahaneyy" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ismahaney" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+            
+        AOS.init({
+            once: true,
+            mirror: false,
+            duration: 800,
+            easing: 'ease-in-out',
+            offset: 100
+        });
+    </script>
+</body>
+</html>

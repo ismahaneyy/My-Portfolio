@@ -2,6 +2,8 @@
 
 Hey there! Welcome to my portfolio website. I'm Ismahan, a Computer Science student who's absolutely passionate about web development and building cool stuff that makes a difference.
 
+ **Live Portfolio**: [https://my-portfolio-jet-two-20.vercel.app/](https://my-portfolio-jet-two-20.vercel.app/)
+
 ## What You'll Find Here
 
 This is my personal portfolio where I showcase the projects I've been working on, from my early days at Moringa School to the exciting things I'm building now. It's built with vanilla HTML, CSS, and JavaScript - keeping things clean and fast.
